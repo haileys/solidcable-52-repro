@@ -1,0 +1,8 @@
+development:
+  adapter: solid_cable
+  # connects_to:
+  #   database:
+  #     writing: cable
+  polling_interval: 0.01.seconds
+  message_retention: 1.day
+  autotrim: false
